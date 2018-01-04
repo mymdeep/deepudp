@@ -68,7 +68,7 @@ public class DeepUdp {
             @Override
             public void run() {
                 while(isBegin){
-                    byte[] message = new byte[100];
+                    byte[] message = new byte[size];
                     datagramPacket = new DatagramPacket(message,
                         message.length);
                     try {
@@ -102,7 +102,7 @@ public class DeepUdp {
 
                     try {
 
-                        byte[] message = new byte[100];
+                        byte[] message = new byte[size];
                         datagramPacket =  new DatagramPacket(message, message.length,
                             InetAddress.getByName(ip), port);
                         String a =info;
