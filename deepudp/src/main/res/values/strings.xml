@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">deepudp</string>
+    <string name="receive">收到的内容:</string>
 </resources>
