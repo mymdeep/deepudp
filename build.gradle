@@ -23,7 +23,7 @@ ext {
     siteUrl = 'https://github.com/mymdeep/deepudp'
     gitUrl = 'https://github.com/mymdeep/deepudp.git'
     group = "com.deep"
-    version = "1.2"
+    version = "1.0"
     id = 'mymdeep'
     name = 'wangfei'
     email =  'mymdeep@vip.qq.com'
